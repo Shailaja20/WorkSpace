@@ -1,0 +1,17 @@
+package java_Program;
+
+public class This {
+	class A{
+	private int i=20; 
+	A(int x){  
+	this();  
+	System.out.println(x);  
+	}
+	A(){System.out.println("hello a");} 
+	void B(){System.out.println("hello b");}
+	}  
+	class TestThis5{  
+	public void main(String args[]){  
+	A a=new A(10);  
+	}}  
+}

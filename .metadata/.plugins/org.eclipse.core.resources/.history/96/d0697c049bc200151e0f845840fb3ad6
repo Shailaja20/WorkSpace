@@ -1,0 +1,30 @@
+package selenium_webdriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Google_Language {
+	public WebDriver driver;
+	
+	public void OpenUrl(){
+		System.setProperty("webdriver.chrome.driver", "E:\\Lib\\chromedriver_win32\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("http://google.com");
+		driver.manage().window().maximize();
+	}
+	
+	public void ClickLanguage(){
+		driver.findElement(By.id("हिन्दी")).click();
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Google_Language g=new Google_Language();
+		g.OpenUrl();
+		g.ClickLanguage();
+
+	}
+
+}

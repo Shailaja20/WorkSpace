@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Read_Excel.java&apos; to &apos;VendorDashboard/src/YoutubeLink&apos;&#x0D;&#x0A;- Original project: &apos;VendorDashboard&apos;&#x0D;&#x0A;- Destination element: &apos;VendorDashboard/src/YoutubeLink&apos;&#x0D;&#x0A;- Original element: &apos;YoutubeLink.Read_Excel.java&apos;" description="Copy compilation unit" destination="/src&lt;YoutubeLink" element1="/src&lt;YoutubeLink{Read_Excel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1484210070965" units="1" version="1.0"/>
+</session>

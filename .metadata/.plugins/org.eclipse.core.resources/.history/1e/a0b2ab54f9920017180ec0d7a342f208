@@ -1,0 +1,26 @@
+package java_Program;
+
+public class Reverse {
+	
+	public void ReverseAString(){
+
+			String str = "I am in Exilant";
+			String[] words = str.split(" ");
+			String reverseWord = "";
+			
+			for(String w: words){
+				StringBuilder sb= new StringBuilder(w);
+				sb.reverse();
+				reverseWord+=sb.toString()+"";
+				}
+			
+	
+	}
+
+	public static void main(String[] args) {
+		  new Reverse().ReverseAString();
+		
+
+	}
+
+}

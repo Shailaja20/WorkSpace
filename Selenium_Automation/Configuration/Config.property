@@ -1,0 +1,9 @@
+Chromedriver=D:\\Lib\\chromedriver_win32\\chromedriver.exe
+
+IEdriver=D:\\Lib\\IEDriverServer_x64_2.48.0\\IEDriverServer.exe
+
+URL=http://corp.xoxoday.com/
+
+URL1=http://www.demosite.center/wordpress/wp-login.php
+
+Excelpath=

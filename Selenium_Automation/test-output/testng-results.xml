@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29392" started-at="2017-05-18T10:58:35Z" finished-at="2017-05-18T10:59:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29392" started-at="2017-05-18T10:58:35Z" finished-at="2017-05-18T10:59:05Z">
+      <class name="com.wordpress.Testcases.VerifyLogin">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="beforemethod" is-config="true" duration-ms="10593" started-at="2017-05-18T16:28:35Z" finished-at="2017-05-18T16:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="LoginWordpress()[pri:0, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="LoginWordpress" duration-ms="8910" started-at="2017-05-18T16:28:46Z" finished-at="2017-05-18T16:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWordpress -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="aftermethod" is-config="true" duration-ms="891" started-at="2017-05-18T16:28:55Z" finished-at="2017-05-18T16:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="beforemethod" is-config="true" duration-ms="6356" started-at="2017-05-18T16:28:56Z" finished-at="2017-05-18T16:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="GeneratePassword()[pri:1, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="GeneratePassword" duration-ms="403" started-at="2017-05-18T16:29:02Z" finished-at="2017-05-18T16:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneratePassword -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.wordpress.Testcases.VerifyLogin@d2cc05a]" name="aftermethod" is-config="true" duration-ms="2200" started-at="2017-05-18T16:29:02Z" finished-at="2017-05-18T16:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.wordpress.Testcases.VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

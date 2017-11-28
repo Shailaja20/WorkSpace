@@ -1,0 +1,29 @@
+package selenium_webdriver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Mail_Login {
+	public WebDriver driver;
+	
+	//public void chromedriver(){
+	//	System.setProperty("webdriver.chrome.driver", "E:\\Lib\\chromedriver_win32.exe");
+	//	driver=new ChromeDriver();
+	//	driver.get("http://google.co.in");
+
+	public void firefox(){
+		driver= new FirefoxDriver();
+		driver.get("http://google.co.in");
+	}
+
+	public static void main(String[] args){
+		// TODO Auto-generated method stub
+		Mail_Login m=new Mail_Login();
+		//m.chromedriver();
+		m.firefox();
+		
+		
+	}
+
+}

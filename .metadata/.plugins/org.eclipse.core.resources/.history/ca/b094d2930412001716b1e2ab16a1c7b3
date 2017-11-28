@@ -1,0 +1,55 @@
+package selenium_webdriver;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.junit.Ignore;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+//import org.testng.annotations.AfterTest;
+
+public class Login {
+	public WebDriver driver;
+	
+	
+  @Test
+  public void Login_Page() throws Exception {
+	  driver.findElement(By.xpath("//*[@id='login_username']")).sendKeys("shailja@giftxoxo.com");
+	  driver.findElement(By.xpath("//*[@id='password']")).sendKeys("c1a1c1ba07");
+	  driver.findElement(By.xpath("//*[@id='button-login']")).click();
+	  Thread.sleep(2000);
+	 // driver.findElement(By.xpath("//*[@id="top"]/div/div/div[3]/div/ul/li[3]/ul/li[2]/a/span[2]/span")).click();
+	  }
+  
+  @Test
+ public void Hover() throws Exception{
+	  Actions action = new Actions(driver);
+	  WebElement we = driver.findElement(By.xpath("//*[@id='top']/div/div/div[3]/div/ul/li[3]/a"));
+	  action.moveToElement(we).moveToElement(driver.findElement(By.xpath("//*[@id='top']/div/div/div[3]/div/ul/li[3]/ul/li[1]/a"))).click().build().perform();
+      Thread.sleep(1000);
+	//  driver.findElement(By.xpath("//*[@id='top']/div/div/div[3]/div/ul/li[3]/ul/li[1]/a")).click();
+  }
+  
+  @Ignore
+  //@Test 
+  public void Forgot_Password(){
+	  driver.findElement(By.id("forgotpwd_checkacct")).click();
+  }
+  
+  @BeforeTest
+  public void beforeTest() {
+	  System.setProperty("webdriver.chrome.driver", "D:\\Lib\\chromedriver_win32\\chromedriver.exe");
+	  driver=new ChromeDriver();
+	  driver.get("http://www.giftxoxo.com/");
+	  driver.manage().window().maximize();
+	  }
+  
+ 
+  /*@AfterTest
+  public void afterTest() {
+	  driver.close();
+	  }*/
+
+}

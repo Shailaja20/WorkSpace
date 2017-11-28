@@ -1,0 +1,10 @@
+package corp.xoxoday.com;
+
+public class ImageVerify {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
